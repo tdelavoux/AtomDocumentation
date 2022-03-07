@@ -1,0 +1,96 @@
+/* -------------- overright -------------- */
+ul{list-style-type: none;} 
+.nav>li>a{display:unset;}
+a{text-decoration: none;}
+p{margin: 0.5em 0}
+body,html{width:100%;height:100%; max-height:100%;overflow:hidden;display:flex;flex-direction: column;margin:0; font-size:14px;}
+#content{display:flex;height:100%;}
+.a-btn i, .a-btn-sm i{margin:0 0.5em 0 0;}
+/* ------------------------------------- COLORSHEME ------------------------------*/
+:root {
+    --blue: #588da8;
+    --gray-light: #f5f5fa;
+
+    --pink: #EF7C8E;
+    --cream: #FAE8E0;
+    --mint: #B6E2D3;
+    --rose: #D8A7B1;
+
+    --teal: #5BB0BA;
+    --snuckle: #C15B78;
+    --ivory: #EBF5F7;
+    --quartz: #F6C8CC;
+}
+
+/* ------------------------------------- NAVBAR ------------------------------*/
+#top-nav{height:40px;background-color: var(--blue); color:#fff; padding: 0.5em 0;}
+.a-nav{display:flex;align-items: center; height:100%; margin: 0 auto;}
+.a-nav-item{padding: 0 0.5em;height:100%;display:flex;justify-content: center;font-size:19px; font-family: 'Baloo Bhaina 2', cursive;}
+.a-nav-item a{color:#fff}
+.atomTitle{font-family: 'Lobster', cursive;font-size: 23px;}
+
+/* -------------------------------- NAVBAR LEFT ------------------------------*/
+#sidenav{height:100%; width:25%; min-width: 300px; background-color: var(--gray-light);display:flex;justify-content: flex-end;}
+.docs-sidebar{padding: 10px 0; width:250px;right:0;}
+
+.docs-sidebar .nav>li>a {color: #111;border-left: 2px solid transparent;padding: 3px 20px;font-size: 15px;font-weight: 500;font-family: 'Baloo Bhaina 2', cursive;}
+.docs-sidebar .nav .nav>li>a {padding-left: 40px;font-size: 14px;}
+.sub-link {padding-left: 50px!important;font-size: 13px!important;color:#777777 !important;} 
+.docs-sidebar .nav>li:not(.active)>a:hover {text-decoration: none;background-color: transparent;border-left-width: 1px;border-left-color: rgb(151, 148, 148);}
+
+/* ---------------------------------------- Body ------------------------------*/
+#content-page{flex:1; overflow-y: auto; padding:30px 50px 75px 50px;}
+h2{font-size:37px; font-weight: bold;font-family: 'Baloo Bhaina 2', cursive;}
+h3{font-size:27px;font-weight: 600;font-family: 'Baloo Bhaina 2', cursive;}
+h3:before{content:'# ';color:var(--snuckle)}
+
+@media (min-width: 1200px){
+    #content-page {
+        width: 1170px;
+    }
+}
+
+.bg-square{height:30px; width:30px;border-radius:8px; margin: 0 0.3em}
+.mw-400{max-width: 400px;}
+.a-collapsed{display:none;}
+.languageItem{padding:0.5em; border:solid 1px #c0c5ce; margin: 0.2em 0.5em;}
+
+/* ##############################################################################
+                                Coloration synaxique
+################################################################################# */
+
+/*Syntax Highlighter : Sublime Theme */
+
+.syntaxhighlighter {background-color: #2b303b !important;padding: 20px 30px;margin: 2em 0 1em 0 !important;border-radius:10px;width:95% !important;}
+.syntaxhighlighter a,
+.syntaxhighlighter div,
+.syntaxhighlighter code,
+.syntaxhighlighter table,
+.syntaxhighlighter table td,
+.syntaxhighlighter table tr,
+.syntaxhighlighter table tbody,
+.syntaxhighlighter table thead,
+.syntaxhighlighter table caption,
+.syntaxhighlighter textarea {line-height: 1.5em !important;}
+.syntaxhighlighter .line.alt1 {background-color: #2b303b !important;}
+.syntaxhighlighter .line.alt2 {background-color: #2b303b !important;}
+.syntaxhighlighter .string,
+.syntaxhighlighter .string a {color: #90be8c !important;}
+.syntaxhighlighter .color1,
+.syntaxhighlighter .color1 a {color: #d08770 !important;}
+.syntaxhighlighter .plain,
+.syntaxhighlighter .plain a {color: #c0c5ce !important;}
+.syntaxhighlighter .keyword {color: #bf616a !important;}
+.syntaxhighlighter .gutter {color: #757a84 !important;}
+.syntaxhighlighter .line.highlighted.alt1,
+.syntaxhighlighter .line.highlighted.alt2 {background-color: #333E49 !important;}
+.syntaxhighlighter .gutter .line.highlighted { background-color: #343d46 !important; color: #757a84 !important;}
+.syntaxhighlighter .value {color: #96b5b4 !important;}
+.syntaxhighlighter .color3,
+.syntaxhighlighter .color3 a {color: #b48ead !important;}
+.syntaxhighlighter .js.keyword {color: #b48ead !important;}
+.syntaxhighlighter .css.keyword {color: #4cc5f5 !important;}
+.syntaxhighlighter .css.value {color: #9f64cc !important;}
+.syntaxhighlighter .css.classes {color: #79c456 !important;}
+.syntaxhighlighter .css.namespaced{color: #cf5353 !important;}
+.syntaxhighlighter .css.actionMarker{ color: #cfc653 !important;}
