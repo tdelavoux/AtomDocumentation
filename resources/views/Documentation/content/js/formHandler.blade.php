@@ -76,13 +76,13 @@
                 /* Cass for submit button. Verifications will be launched on click
                 *
                 * List of attributes and property :
-                * @use  optional    data-function	    Define JS function to launch if button is not a submit. Function will be executed if not error is triggered
-                * @use  optional    check-invisible     Define to also check visible elements
-                * @use  optional    notify-none         Define to disable global noticiations.
-                * @use  optional    notify-all          Define to Notify all global errors. By default, one generic error message is triggered
+                * @use  optional    a-data-function	    Define JS function to launch if button is not a submit. Function will be executed if not error is triggered
+                * @use  optional    a-check-invisible     Define to also check visible elements
+                * @use  optional    a-notify-none         Define to disable global noticiations.
+                * @use  optional    a-notify-all          Define to Notify all global errors. By default, one generic error message is triggered
                 * @use  optional    a-disable-color     Define to disable red color input with errors
-                * @use  optional    input-notify-none   Define to disable inputs error messages 
-                * @use  optional    data-opt-bloc       Add custom JS control function. Return true to block submit, false otherwise
+                * @use  optional    a-input-notify-none   Define to disable inputs error messages 
+                * @use  optional    a-data-opt-bloc       Add custom JS control function. Return true to block submit, false otherwise
                 */
                 .a-form-handler
             </pre>
@@ -211,18 +211,23 @@
 
                 /**
                 * --------- Radios Verification  ----------
-                * Verification simple que l'un des boutons radio a été sélectionné dans la liste des radio de méme noms
+                * Verify one radio has been selected in a list sharing the same name attr 
                 *
-                *  @use optional  data-name		    : Input name. Used in error messages
-                *  @use optional  disable-message   : Disable error messages under input field
+                * @use optional  a-alternate-verif: Add custom JS function to control input value. Return true to trigger error.
+                * @use optional  a-error-message  : Custom error message for a-alternate-verif function.
+                * @use optional  a-name           : Input name. Used in error messages
+                * @use optional  a-disable-message: Disable error messages under input field
                 */
 
                 /**
                 * --------- Files Input Verification ----------
-                * Verification simple que l'un des input files a bien un fichier sélectionné
+                * verify File has been uplaoded
                 * 
-                * @use optional  data-name        : Input name. Used in error messages
-                * @use optional  disable-message  : Disable error messages under input field
+                * @use optional  a-alternate-verif: Add custom JS function to control input value. Return true to trigger error.
+                * @use optional  a-error-message  : Custom error message for a-alternate-verif function.
+                * @use optional  a-name           : Input name. Used in error messages
+                * @use optional  a-disable-message: Disable error messages under input field
+                * @use optional  a-nullable       : Define to accept null value
                 */
             </pre>
 
