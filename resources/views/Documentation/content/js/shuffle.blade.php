@@ -108,7 +108,3 @@
 
     </section>
 @stop
-
-@push('addJS')
-<script type="text/javascript" src="{{asset('js/shuffle.js')}}"></script>
-@endpush

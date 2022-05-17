@@ -7,6 +7,7 @@ function init(){
 
     $('.a-uploader').atomFileLoader();
     $('.a-input-file').atomFileInput();
+    $('#a-input-shuffle').atomShuffleInstance();
 
     $('.a-collapsing-manually').atomCollapse({collapsedText:'Show below'});
 
