@@ -6,7 +6,7 @@
         <title>{{env('APP_NAME')}} - @yield('title_page')</title>
         <meta name="viewport"  content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/svg+xml" href="{{asset('img/atom.svg')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('css/fontawesome-5.13.0/css/all.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/fontawesome/css/all.css')}}">
         <link rel="stylesheet" type="text/css" href="{{asset('css/atom.min.css')}}">
         <link rel="stylesheet" type="text/css" href="{{asset('js/syntax-highlighter/styles/shCore.css')}}" media="all">
         <link rel="stylesheet" type="text/css" href="{{asset('js/syntax-highlighter/styles/shThemeRDark.css')}}" media="all">
@@ -29,7 +29,10 @@
         </div>
    
     <script type="text/javascript" src="{{asset('js/jquery-3.5.1.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/atom.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/atom.js')}}"></script>
+    {{-- <script type="text/javascript" src="{{asset('js/atomShuffle.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/atomDataTable.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/atomFormHandler.js')}}"></script> --}}
 
     <script src="{{asset('js/syntax-highlighter/scripts/shCore.js')}}"></script>
     <script src="{{asset('js/syntax-highlighter/scripts/shBrushXml.js')}}"></script>

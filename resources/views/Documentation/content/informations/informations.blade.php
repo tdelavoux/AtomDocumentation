@@ -10,7 +10,7 @@
 
     <h3>Requirements</h3>
     <p><strong>Jquery 3.5.1+:</strong> Used in all JS objects</p>
-    <p><strong>Font Awesome 5.3+ :</strong> Used for checkbox, panels and datatable icons</p>
+    <p><strong>Font Awesome 6.1+ :</strong> Used for checkbox, panels and datatable icons</p>
 
     <h3>Get Started</h3>
     <p>
