@@ -50,7 +50,3 @@
 
     </section>
 @stop
-
-@push('addJS')
-<script type="text/javascript" src="{{asset('js/notifications.js')}}"></script>
-@endpush

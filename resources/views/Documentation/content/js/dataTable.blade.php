@@ -123,5 +123,125 @@
             </pre>
         </article>
 
+
+
+        <h3>Paginate</h3>
+        <article>
+
+            <table id="atomDataTableDemoPaginate" class="a-table a-table-delimited a-table-hover">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Value</th>
+                        <th>Value 2</th>
+                        <th>Value 3</th>
+                    </tr>
+                </thead>
+        
+                <tbody>
+                    <tr>
+                        <td>#1254</td>
+                        <td>Lorem ipsum atria</td>
+                        <td>12/10/2021</td>
+                        <td>Value 2 azdqsd</td>
+                        <td>Value 3 fezdf</td>
+                    </tr>
+                    <tr>
+                        <td>#1254</td>
+                        <td>Lorem irrrrrrpsum atridddddda</td>
+                        <td>25/06/1991 </td>
+                        <td>Value sfzefsdf 2</td>
+                        <td>Value sdfzefsdf 3</td>
+                    </tr>
+                    <tr>
+                        <td>#1254</td>
+                        <td>Lorem ipsum atria</td>
+                        <td>15/01/2022</td>
+                        <td>Value 2</td>
+                        <td>Valssssssssssue 3</td>
+                    </tr>
+                    <tr>
+                        <td>#1254</td>
+                        <td>Lorem ipsum atria</td>
+                        <td>12/10/2021</td>
+                        <td>Value 2 azdqsd</td>
+                        <td>Value 3 fezdf</td>
+                    </tr>
+                    <tr>
+                        <td>#1254</td>
+                        <td>Lorem irrrrrrpsum atridddddda</td>
+                        <td>25/06/1991 </td>
+                        <td>Value sfzefsdf 2</td>
+                        <td>Value sdfzefsdf 3</td>
+                    </tr>
+                    <tr>
+                        <td>#1254</td>
+                        <td>Lorem ipsum atria</td>
+                        <td>15/01/2022</td>
+                        <td>Value 2</td>
+                        <td>Valssssssssssue 3</td>
+                    </tr>
+                    <tr>
+                        <td>#1254</td>
+                        <td>Lorem ipsum atria</td>
+                        <td>12/10/2021</td>
+                        <td>Value 2 azdqsd</td>
+                        <td>Value 3 fezdf</td>
+                    </tr>
+                    <tr>
+                        <td>#1254</td>
+                        <td>Lorem irrrrrrpsum atridddddda</td>
+                        <td>25/06/1991 </td>
+                        <td>Value sfzefsdf 2</td>
+                        <td>Value sdfzefsdf 3</td>
+                    </tr>
+                    <tr>
+                        <td>#1254</td>
+                        <td>Lorem ipsum atria</td>
+                        <td>15/01/2022</td>
+                        <td>Value 2</td>
+                        <td>Valssssssssssue 3</td>
+                    </tr>
+                    <tr>
+                        <td>#1254</td>
+                        <td>Lorem ipsum atria</td>
+                        <td>12/10/2021</td>
+                        <td>Value 2 azdqsd</td>
+                        <td>Value 3 fezdf</td>
+                    </tr>
+                    <tr>
+                        <td>#1254</td>
+                        <td>Lorem irrrrrrpsum atridddddda</td>
+                        <td>25/06/1991 </td>
+                        <td>Value sfzefsdf 2</td>
+                        <td>Value sdfzefsdf 3</td>
+                    </tr>
+                    <tr>
+                        <td>#1254</td>
+                        <td>Lorem ipsum atria</td>
+                        <td>15/01/2022</td>
+                        <td>Value 2</td>
+                        <td>Valssssssssssue 3</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <pre class="brush: html">
+                <table id="atomDataTableDemo" class="a-table a-table-delimited a-table-hover">
+                     
+                </table>
+            </pre>
+
+            <pre class="brush: js">
+                $('#atomDataTableDemo2').atomDataTable({
+
+                    // Define the number of elements by page
+                    nbPerPage : 5,
+
+                });
+            </pre>
+        </article>
+
     </section>
 @stop

@@ -29,11 +29,7 @@
         </div>
    
     <script type="text/javascript" src="{{asset('js/jquery-3.5.1.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/atom.js')}}"></script>
-    {{-- <script type="text/javascript" src="{{asset('js/atomShuffle.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/atomDataTable.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/atomFormHandler.js')}}"></script> --}}
-
+    <script type="text/javascript" src="{{asset('js/atom.min.js')}}"></script>
     <script src="{{asset('js/syntax-highlighter/scripts/shCore.js')}}"></script>
     <script src="{{asset('js/syntax-highlighter/scripts/shBrushXml.js')}}"></script>
     <script src="{{asset('js/syntax-highlighter/scripts/shBrushCss.js')}}"></script>

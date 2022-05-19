@@ -12,6 +12,7 @@ function init(){
     $('.a-collapsing-manually').atomCollapse({collapsedText:'Show below'});
 
     $('#atomDataTableDemo').atomDataTable();
+    $('#atomDataTableDemoPaginate').atomDataTable({nbPerPage:5});
     
     $('#atomDataTableDemo2').atomDataTable({
         filterableColumn : [1,2,3],
@@ -26,5 +27,21 @@ function init(){
             2 : 'd/m/Y'
         }
     });
+
+      /*********************** NOTIFICATIONS  ***********************/
+
+      var notifications = document.querySelectorAll(".notification-btn");
+      notifications.forEach(notif => {
+          notif.addEventListener("click", function(e){
+              $.atomNotification(e.target.dataset.text, e.target.dataset.type);
+          });
+      });
+  
+      var notificationsPos = document.querySelectorAll(".notification-btn-pos");
+      notificationsPos.forEach(notif => {
+          notif.addEventListener("click", function(e){
+              $.atomNotification(e.target.dataset.text, {"alignment": e.target.dataset.pos});
+          });
+      });
 }
 init();
