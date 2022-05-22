@@ -12,7 +12,7 @@
             <li><a class="sub-link" href="{{ route('documentation', ['components', 'tabs']) }}">Tabs</a></li>
             <li><a class="sub-link" href="{{ route('documentation', ['components', 'panels']) }}">Panels</a></li>
             <li><a class="sub-link" href="{{ route('documentation', ['components', 'inputs']) }}">Inputs</a></li>
-            <li><a class="sub-link" href="{{ route('documentation', ['components', 'tables']) }}">Tableaux</a></li>
+            <li><a class="sub-link" href="{{ route('documentation', ['components', 'tables']) }}">Tables</a></li>
             <li><a class="sub-link" href="{{ route('documentation', ['components', 'timeline']) }}">Timeline</a></li>
             <li><a>Atom JS</a></li>
             <li><a class="sub-link" href="{{ route('documentation', ['js', 'collapse']) }}">Atom Collapse</a></li>
