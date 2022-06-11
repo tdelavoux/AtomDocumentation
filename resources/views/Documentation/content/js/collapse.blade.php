@@ -21,7 +21,7 @@
 
             <pre class="brush: html">
                <div>       
-                    <span id="collapserDemo" collapse-target="#toCollapseDemo" class="small-text">Collapse below</span>
+                    <span id="collapserDemo" collapse-target="#toCollapseDemo" class="small-text  a-collapsable">Collapse below</span>
                     <p id="toCollapseDemo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate non nisi id tempor. Sed lobortis ligula sed 
                         erat bibendum, vel interdum dui tempor. Etiam faucibus dapibus lectus vel rutrum. In vel neque malesuada, 
                         tristique nibh quis, porttitor dui. Nullam turpis erat, luctus sed nibh at, mollis rhoncus neque. Aenean eleifend dui nisi. 
