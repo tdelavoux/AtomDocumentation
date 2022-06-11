@@ -98,7 +98,8 @@
                 * @use optional  a-name           : Input name. Used in error messages
                 * @use optional  a-disable-message: Disable error messages under input field
                 * 
-                */ 
+                */
+                .a-verify-select
 
                 /**
                 * --------- Text Input Verification  ----------
@@ -112,6 +113,7 @@
                 * @use optional  a-disable-message: Disable error messages under input field
                 * 
                 */
+                .a-verify-text
 
                 /**
                 * --------- Textarea with count Verification  ----------
@@ -125,6 +127,7 @@
                 * @use optional  a-disable-message: Disable error messages under input field
                 * 
                 */
+                .a-verify-textarea-with-count
 
                 /**
                 * --------- Date Input Verification  ----------
@@ -135,6 +138,7 @@
                 * @use optional  a-nullable       : Define to accept null value
                 * @use optional  a-disable-message: Disable error messages under input field
                 */
+                .a-verify-date
 
                 /**
                 * --------- Phone Input Verification  ----------
@@ -147,6 +151,7 @@
                 * @use optional  a-disable-message: Disable error messages under input field
                 * 
                 */
+                .a-verify-phone
 
                 /**
                 * --------- Email Input Verification  ----------
@@ -158,6 +163,7 @@
                 * @use optional  a-disable-message: Disable error messages under input field
                 * 
                 */
+                .a-verify-email
 
                 /**
                 * --------- Integer Input Verification  ----------
@@ -170,6 +176,7 @@
                 * @use optional  a-min            : Min value. Default 0
                 * @use optional  a-max			  : Max value. Default 2147483647
                 */
+                .a-verify-int
 
                 /**
                 * --------- Float Input Verification  ----------
@@ -183,6 +190,7 @@
                 * @use optional  a-max			  : Max value. Default 2147483647
                 * 
                 */
+                .a-verify-float
 
                 /**
                 * --------- Checkboxs Verification  ----------
@@ -196,6 +204,7 @@
                 * @use optional  a-error-message  : Custom error message for a-alternate-verif function.
                 * 
                 */
+                .a-verify-checked
 
                 /**
                 * --------- One In List Verification  ----------
@@ -208,6 +217,7 @@
                 * @use optional  a-disable-message: Disable error messages under input field
                 * 
                 */
+                .a-verify-one-in-list
 
                 /**
                 * --------- Radios Verification  ----------
@@ -218,6 +228,7 @@
                 * @use optional  a-name           : Input name. Used in error messages
                 * @use optional  a-disable-message: Disable error messages under input field
                 */
+                .a-verify-radio
 
                 /**
                 * --------- Files Input Verification ----------
@@ -229,6 +240,7 @@
                 * @use optional  a-disable-message: Disable error messages under input field
                 * @use optional  a-nullable       : Define to accept null value
                 */
+                .a-verify-file
             </pre>
 
         </article>
